@@ -18,4 +18,6 @@ _Each home has two energy-related parts: consumption and generation. The energy 
 - Keypad Library - prebuilt in the IDE as a base.
 - [Filter](https://github.com/hideakitai/Filters)
 
+Link to 'Demo Video'. Click Here!
+Link to 'Research Paper'. Click Here!
 **Source Code and Schematic of the Simulation project is present in the library itself**
