@@ -6,6 +6,10 @@
 
 _Each home has two energy-related parts: consumption and generation. The energy usage component involves various home appliances and lamps. The energy generation component comprises renewable energies such as solar and wind energy. Because a home consumes and generates energy, to minimize the energy cost, a control device like a home server needs to monitor and control both energy consumption and energy generation._
 
+_SHEMS monitors medium and light charges and determines whether the load should be connected to the battery or grid. Installed in the premises is a renewably energized battery bank. The battery bank provides medium- and light-load power. The grid is always connected to heavy loads. The power consumed by the loads is sensed, processed, and displayed on a webpage where the user can easily create control. SHEMS is the Master Controller and manages the activities of the whole Energy Management system.
+The SHEMS system includes grid availability, connected load type (light or medium load), bank status of the battery, and daytime. Based on these inputs, it determines whether to smartly attach the charge to Grid or Battery. SHEMS collects information directly from loads and inspects it in Space. The State of Charge (SOC) of the two batteries are the inputs into the battery control system. SHEMS decides based on the inputs that the battery should be linked to the network and which battery should be charged to._
+
+
 ### Requirement
 - Arduino IDE
 - Proteus Design Suite (8.0 and above)
