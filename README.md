@@ -18,7 +18,7 @@ _Each home has two energy-related parts: consumption and generation. The energy 
 - Keypad Library - prebuilt in the IDE as a base.
 - [Filter](https://github.com/hideakitai/Filters)
 
-Link to `Demo Video`. Click Here!
+Link to `Demo Video` of my Real-Time Implementation. Click Here!
 
 Link to `Research Paper`. [Click Here](http://ijsrem.com/download/smart-hybrid-energy-management-system-using-fuzzy-logic/?wpdmdl=3568&masterkey=5eeec2d6ef2ff)!
 
