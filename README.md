@@ -11,5 +11,5 @@ _This paper proposes a Smart Hybrid Energy Management System (SHEMS) which can b
 
 _Each home has two energy-related parts: consumption and generation. The energy usage component involves various home appliances and lamps. The energy generation component comprises renewable energies such as solar and wind energy. Because a home consumes and generates energy, to minimize the energy cost, a control device like a home server needs to monitor and control both energy consumption and energy generation._
 
-<img src="http://projects.eng.uci.edu/sites/default/files/Schematic.JPG">
+<img src="http://projects.eng.uci.edu/sites/default/files/Schematic.JPG" width=554 height=275 >
 **Block Diagram of General SHEMS Architecture**
