@@ -1,4 +1,5 @@
-# **SMART HYBRID ENERGY MANAGEMENT SYSTEM USING FUZZY LOGIC**
+# **SMART HYBRID ENERGY MANAGEMENT SYSTEM 
+USING FUZZY LOGIC**
 ## Final year project by Aravindhakshan Seshadri
 
 ### Abstract
