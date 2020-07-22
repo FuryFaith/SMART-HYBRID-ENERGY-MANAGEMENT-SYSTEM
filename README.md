@@ -1,5 +1,5 @@
-# **SMART HYBRID ENERGY MANAGEMENT SYSTEM(SHEMS) USING FUZZY LOGIC**
-## - Final year project by Aravindhakshan Seshadri
+# **SMART HYBRID ENERGY MANAGEMENT SYSTEM USING FUZZY LOGIC**
+## Final year project by Aravindhakshan Seshadri
 
 ### Abstract
 _Energy consumption has increased exponentially since the start of the new millennia. The arrival of the smart grid era has led to renewable energies such as sun, wind, water, etc. being harnessed to help achieve energy supply and demand._
