@@ -22,7 +22,7 @@ The SHEMS system includes grid availability, connected load type (light or mediu
 - Keypad Library - prebuilt in the IDE as a base.
 - [Filter](https://github.com/hideakitai/Filters)
 
-Link to `Demo Video` of my Real-Time Implementation. Click Here!
+Link to `Demo Video` of my Real-Time Implementation. [Click Here](https://youtu.be/K4hGNZzHAwU)!
 
 Link to `Research Paper`. [Click Here](http://ijsrem.com/download/smart-hybrid-energy-management-system-using-fuzzy-logic/?wpdmdl=3568&masterkey=5eeec2d6ef2ff)!
 
