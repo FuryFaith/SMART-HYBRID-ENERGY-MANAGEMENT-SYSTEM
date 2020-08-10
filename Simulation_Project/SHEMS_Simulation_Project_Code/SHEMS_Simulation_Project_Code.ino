@@ -667,7 +667,7 @@ void loop() {
 //Function to calculate current
 float getCurrent(int _pin) {
   float average = 0;
-  ACS712 sensor(ACS712_30A, _pin );
+  ACS712 sensor(ACS712_20A, _pin );
   sensor.calibrate();
   average = sensor.getCurrentAC();
 return average;
@@ -721,6 +721,10 @@ void batcondition()
   if(vin > 1 )
   {
    digitalWrite(batcontrol, HIGH);
+  }
+  if(vin < 1 )
+  {
+   digitalWrite(batcontrol, LOW);
   }
   delay(2000);
 }
