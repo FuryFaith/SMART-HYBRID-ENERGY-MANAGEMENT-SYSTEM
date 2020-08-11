@@ -435,12 +435,14 @@ void loop() {
   delay(500);
   value1 = analogRead(analogInput1);
   vout1 = (value1 * 5.0) / 1024.0;
-  vin1 = vout1 / (R2/(R1+R2));
-  
+  //vin1 = vout1 / (R2/(R1+R2));
+  vin1 = random(0,11);
  //Battery2 Voltage
   value2 = analogRead(analogInput2);
   vout2 = (value2 * 5.0) / 1024.0;
-  vin2 = vout2 / (R2/(R1+R2)); 
+  //vin2 = vout2 / (R2/(R1+R2)); 
+  vin2 = random(0,11);
+  int timer = random(0,23);
   
   Serial.print("------------ Operation No:");
   Serial.print(processrem+1);
@@ -448,7 +450,7 @@ void loop() {
   Serial.println("");
   Serial.println("------------ Time Status ------------");
   Serial.print("Ok, Time = ");
-  Serial.print(int(tm.Hour));
+  Serial.print(timer);
   Serial.print(':');
   Serial.print(int(tm.Minute));
   Serial.print(':');
@@ -540,7 +542,7 @@ void loop() {
 
 
   //Setting Input Variables of the Fuzzy Logic
-  int input1 = tm.Hour;// To Set any input randomly we can also use the random fuction ( random(x,y); )
+  int input1 = timer;// To Set any input randomly we can also use the random fuction ( random(x,y); )
   int input2 = int(pow_sum);
   int input3 = int(Grid_Voltage);
   int input4 = int(vin); 
@@ -667,7 +669,7 @@ void loop() {
 //Function to calculate current
 float getCurrent(int _pin) {
   float average = 0;
-  ACS712 sensor(ACS712_20A, _pin );
+  ACS712 sensor(ACS712_30A, _pin );
   sensor.calibrate();
   average = sensor.getCurrentAC();
 return average;
